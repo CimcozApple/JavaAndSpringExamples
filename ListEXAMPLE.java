@@ -11,19 +11,19 @@ public class ListEXAMPLE {
 		Node node3 = new Node("third");
 		Node node4 = new Node("fourth");
 		Node node5 = new Node("fifth");
-		TestList queu = new TestList();
+		TestList list = new TestList();
 		
-		queu.insert(node1);
-		queu.insert(node2);
-		queu.insert(node3);
-		queu.insert(node4);
-		queu.insert(node5);
+		list.insert(node1);
+		list.insert(node2);
+		list.insert(node3);
+		list.insert(node4);
+		list.insert(node5);
 		
-		queu.display();
+		list.display();
 		
-		queu.deleteFromHead();
+		list.deleteFromHead();
 		System.out.println("-----------------");
-		queu.display();
+		list.display();
 		
 	}
 }
